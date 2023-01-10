@@ -7,7 +7,7 @@ const Navigation = () => {
         <>
             <Navbar collapseOnSelect sticky="top" expand="lg" className="Navbar-header" variant="dark" >
                 <Container>
-                    <Navbar.Brand href="/">
+                    <Navbar.Brand href="/manishkmallik/">
                         <img
                             alt="Logo"
                             src={mkm_logo}
