@@ -23,9 +23,9 @@ const Navigation = () => {
                         <Nav className="ml-auto my-2 my-lg-0 Navbar-text"
                         style={{ maxHeight: '100px', alignItems: "center"}}
                         navbarScroll>
-                            <Nav.Link href="/" className='Navbar-text'>Home</Nav.Link>
-                            <Nav.Link href="/about">About</Nav.Link>
-                            <Nav.Link href="/projects">Projects</Nav.Link>
+                            <Nav.Link href="/manishkmallik/" className='Navbar-text'>Home</Nav.Link>
+                            <Nav.Link href="/manishkmallik/about">About</Nav.Link>
+                            <Nav.Link href="/manishkmallik/projects">Projects</Nav.Link>
                             <Nav.Link href={MyResume} target="_blank" rel="noreferrer">Resume</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
