@@ -5,8 +5,8 @@ import ClaimSafe from '../images/ClaimSafe.png';
 import ReadyPetGo from '../images/ReadyPetGo.png';
 
 const Projects = () => {
-    var width = window.innerWidth;
-    var height = window.innerHeight;
+    //var width = window.innerWidth;
+    //var height = window.innerHeight;
 
 	return (
         <div className="Projects-header">
