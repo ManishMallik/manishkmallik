@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import Projects from './pages/Projects';
+//import Resume from './pages/Resume';
+import Home from './pages/Home';
+import About from './pages/About';
+import Navigation from './components/Navigation';
+import BottomBar from './components/BottomBar';
+import ToyotaTripsPage from './pages/ToyotaTrips';
+import RPG from './pages/RPG';
+import ClaimSafePage from './pages/ClaimSafe';
+//import logo from './images/mkm_logo.jpg';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div>
+        <Navigation/>
+      </div>
+      <div>
+        <Routes>
+          <Route exact path="/" element={<Home/>} /> 
+          <Route path="/about" element={<About/>} />
+          <Route path="/projects" element={<Projects/>} />
+          <Route path="/toyotatrips" element={<ToyotaTripsPage/>} />
+          <Route path="/readypetgo" element={<RPG/>} />
+          <Route path="/claimsafe" element={<ClaimSafePage/>} />
+        </Routes>
+      </div>
+      <div className='contact-bar'>
+        <BottomBar/>
+      </div>
     </div>
   );
 }
