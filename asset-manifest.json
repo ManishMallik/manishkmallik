@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/manishkmallik/static/css/main.e5665e4f.css",
-    "main.js": "/manishkmallik/static/js/main.a2fa46f0.js",
-    "static/js/787.5809834d.chunk.js": "/manishkmallik/static/js/787.5809834d.chunk.js",
-    "static/media/ToyotaTrips.png": "/manishkmallik/static/media/ToyotaTrips.4f20dd5610e9de77fd1c.png",
-    "static/media/Networking.jpg": "/manishkmallik/static/media/Networking.8c017d129c69d0d84b52.jpg",
-    "static/media/cooking.jpg": "/manishkmallik/static/media/cooking.5a517c65adff4fcc287f.jpg",
-    "static/media/Manish Mallik-Resume.pdf": "/manishkmallik/static/media/Manish Mallik-Resume.eef9d337b71a50169614.pdf",
-    "static/media/photo.jpg": "/manishkmallik/static/media/photo.d1dcd3f7a8375bddde2d.jpg",
-    "static/media/ReadyPetGo.png": "/manishkmallik/static/media/ReadyPetGo.41748bb68ba7f0d8e406.png",
-    "static/media/Weightlift.jpg": "/manishkmallik/static/media/Weightlift.d438a2c7ff74ac1c378e.jpg",
-    "static/media/Sport_balls.svg.png": "/manishkmallik/static/media/Sport_balls.svg.c8dc53bbcc43c5af832b.png",
-    "static/media/ClaimSafe.png": "/manishkmallik/static/media/ClaimSafe.b575ab66cbcc39704053.png",
-    "index.html": "/manishkmallik/index.html",
-    "main.e5665e4f.css.map": "/manishkmallik/static/css/main.e5665e4f.css.map",
-    "main.a2fa46f0.js.map": "/manishkmallik/static/js/main.a2fa46f0.js.map",
-    "787.5809834d.chunk.js.map": "/manishkmallik/static/js/787.5809834d.chunk.js.map"
+    "main.css": "/static/css/main.e5665e4f.css",
+    "main.js": "/static/js/main.71b07fa4.js",
+    "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
+    "static/media/ToyotaTrips.png": "/static/media/ToyotaTrips.4f20dd5610e9de77fd1c.png",
+    "static/media/Networking.jpg": "/static/media/Networking.8c017d129c69d0d84b52.jpg",
+    "static/media/cooking.jpg": "/static/media/cooking.5a517c65adff4fcc287f.jpg",
+    "static/media/Manish Mallik-Resume.pdf": "/static/media/Manish Mallik-Resume.eef9d337b71a50169614.pdf",
+    "static/media/photo.jpg": "/static/media/photo.d1dcd3f7a8375bddde2d.jpg",
+    "static/media/ReadyPetGo.png": "/static/media/ReadyPetGo.41748bb68ba7f0d8e406.png",
+    "static/media/Weightlift.jpg": "/static/media/Weightlift.d438a2c7ff74ac1c378e.jpg",
+    "static/media/Sport_balls.svg.png": "/static/media/Sport_balls.svg.c8dc53bbcc43c5af832b.png",
+    "static/media/ClaimSafe.png": "/static/media/ClaimSafe.b575ab66cbcc39704053.png",
+    "index.html": "/index.html",
+    "main.e5665e4f.css.map": "/static/css/main.e5665e4f.css.map",
+    "main.71b07fa4.js.map": "/static/js/main.71b07fa4.js.map",
+    "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5665e4f.css",
-    "static/js/main.a2fa46f0.js"
+    "static/js/main.71b07fa4.js"
   ]
 }
