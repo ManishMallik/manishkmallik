@@ -9,8 +9,8 @@ import ToyotaTripsPage from './pages/ToyotaTrips';
 import RPG from './pages/RPG';
 import ClaimSafePage from './pages/ClaimSafe';
 //import logo from './images/mkm_logo.jpg';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-
+import { HashRouter as Router, Routes, Route} from 'react-router-dom';
+//manishkmallik/
 
 function App() {
   return (
@@ -20,12 +20,12 @@ function App() {
       </div>
       <div>
         <Routes>
-          <Route exact path="/manishkmallik/" element={<Home/>} /> 
-          <Route path="/manishkmallik/about" element={<About/>} />
-          <Route path="/manishkmallik/projects" element={<Projects/>} />
-          <Route path="/manishkmallik/toyotatrips" element={<ToyotaTripsPage/>} />
-          <Route path="/manishkmallik/readypetgo" element={<RPG/>} />
-          <Route path="/manishkmallik/claimsafe" element={<ClaimSafePage/>} />
+          <Route exact path="/" element={<Home/>} /> 
+          <Route path="/about" element={<About/>} />
+          <Route path="/projects" element={<Projects/>} />
+          <Route path="/toyotatrips" element={<ToyotaTripsPage/>} />
+          <Route path="/readypetgo" element={<RPG/>} />
+          <Route path="/claimsafe" element={<ClaimSafePage/>} />
         </Routes>
       </div>
       <div className='contact-bar'>
