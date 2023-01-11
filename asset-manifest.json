@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/manishkmallik/static/css/main.e5665e4f.css",
-    "main.js": "/manishkmallik/static/js/main.45e7cf28.js",
+    "main.js": "/manishkmallik/static/js/main.a15c8f36.js",
     "static/js/787.5809834d.chunk.js": "/manishkmallik/static/js/787.5809834d.chunk.js",
     "static/media/ToyotaTrips.png": "/manishkmallik/static/media/ToyotaTrips.4f20dd5610e9de77fd1c.png",
     "static/media/Networking.jpg": "/manishkmallik/static/media/Networking.8c017d129c69d0d84b52.jpg",
@@ -14,11 +14,11 @@
     "static/media/ClaimSafe.png": "/manishkmallik/static/media/ClaimSafe.b575ab66cbcc39704053.png",
     "index.html": "/manishkmallik/index.html",
     "main.e5665e4f.css.map": "/manishkmallik/static/css/main.e5665e4f.css.map",
-    "main.45e7cf28.js.map": "/manishkmallik/static/js/main.45e7cf28.js.map",
+    "main.a15c8f36.js.map": "/manishkmallik/static/js/main.a15c8f36.js.map",
     "787.5809834d.chunk.js.map": "/manishkmallik/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5665e4f.css",
-    "static/js/main.45e7cf28.js"
+    "static/js/main.a15c8f36.js"
   ]
 }
