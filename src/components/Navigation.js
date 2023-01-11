@@ -25,8 +25,8 @@ const Navigation = () => {
                         style={{ maxHeight: '100px', alignItems: "center"}}
                         navbarScroll>
                             <Nav.Link href={route} className='Navbar-text'>Home</Nav.Link>
-                            <Nav.Link href={route + "/about"}>About</Nav.Link>
-                            <Nav.Link href={route + "/projects"}>Projects</Nav.Link>
+                            <Nav.Link href={route + "/#/about"}>About</Nav.Link>
+                            <Nav.Link href={route + "/#/projects"}>Projects</Nav.Link>
                             <Nav.Link href={MyResume} target="_blank" rel="noreferrer">Resume</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

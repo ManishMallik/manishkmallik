@@ -19,7 +19,7 @@ function App() {
         <Navigation/>
       </div>
       <div>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
             <Routes>
               <Route exact path="/" element={<Home/>} /> 
               <Route path="/about" element={<About/>} />
@@ -28,7 +28,7 @@ function App() {
               <Route path="/readypetgo" element={<RPG/>} />
               <Route path="/claimsafe" element={<ClaimSafePage/>} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </div>
       <div className='contact-bar'>
         <BottomBar/>
