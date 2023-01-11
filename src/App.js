@@ -9,7 +9,7 @@ import ToyotaTripsPage from './pages/ToyotaTrips';
 import RPG from './pages/RPG';
 import ClaimSafePage from './pages/ClaimSafe';
 //import logo from './images/mkm_logo.jpg';
-import { HashRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 //manishkmallik/
 
 function App() {
@@ -19,14 +19,16 @@ function App() {
         <Navigation/>
       </div>
       <div>
-        <Routes>
-          <Route exact path="/" element={<Home/>} /> 
-          <Route path="/about" element={<About/>} />
-          <Route path="/projects" element={<Projects/>} />
-          <Route path="/toyotatrips" element={<ToyotaTripsPage/>} />
-          <Route path="/readypetgo" element={<RPG/>} />
-          <Route path="/claimsafe" element={<ClaimSafePage/>} />
-        </Routes>
+        <BrowserRouter basename='/manishkmallik'>
+          <Routes>
+            <Route exact path="/" element={<Home/>} /> 
+            <Route path="/about" element={<About/>} />
+            <Route path="/projects" element={<Projects/>} />
+            <Route path="/toyotatrips" element={<ToyotaTripsPage/>} />
+            <Route path="/readypetgo" element={<RPG/>} />
+            <Route path="/claimsafe" element={<ClaimSafePage/>} />
+          </Routes>
+        </BrowserRouter>
       </div>
       <div className='contact-bar'>
         <BottomBar/>
