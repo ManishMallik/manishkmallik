@@ -20,12 +20,12 @@ function App() {
       </div>
       <div>
         <Routes>
-          <Route exact path="/manishkmallik/" element={<Home/>} /> 
-          <Route path="/manishkmallik/about" element={<About/>} />
-          <Route path="/manishkmallik/projects" element={<Projects/>} />
-          <Route path="/manishkmallik/toyotatrips" element={<ToyotaTripsPage/>} />
-          <Route path="/manishkmallik/readypetgo" element={<RPG/>} />
-          <Route path="/manishkmallik/claimsafe" element={<ClaimSafePage/>} />
+          <Route exact path="/" element={<Home/>} /> 
+          <Route path="/about" element={<About/>} />
+          <Route path="/projects" element={<Projects/>} />
+          <Route path="/toyotatrips" element={<ToyotaTripsPage/>} />
+          <Route path="/readypetgo" element={<RPG/>} />
+          <Route path="/claimsafe" element={<ClaimSafePage/>} />
         </Routes>
       </div>
       <div className='contact-bar'>

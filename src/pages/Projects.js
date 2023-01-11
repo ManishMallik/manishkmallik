@@ -22,7 +22,7 @@ const Projects = () => {
                         <h1 onClick={() => {
                             //window.location.href = 'https://www.google.com';
                         }}>Toyota Trips</h1>
-                        <a href="/manishkmallik/#/toyotatrips" style={{color: '#00AAFF'}}>Click here</a>
+                        <a href="/#/toyotatrips" style={{color: '#00AAFF'}}>Click here</a>
                     </Col>
                 </Row>
                 <br/>
@@ -34,7 +34,7 @@ const Projects = () => {
                     <Col lg={4} xl={3} className='m-10 col-text'>
                         <h4>Project:</h4>
                         <h1>Ready Pet Go</h1>
-                        <a href="/manishkmallik/#/readypetgo" style={{color: '#00AAFF'}}>Click here</a>
+                        <a href="/#/readypetgo" style={{color: '#00AAFF'}}>Click here</a>
                     </Col>
                 </Row>
                 <br/>
@@ -46,7 +46,7 @@ const Projects = () => {
                     <Col lg={4} xl={3} className='m-10 col-text'>
                         <h4>Project:</h4>
                         <h1>Botsitive Zen</h1>
-                        <a href="/manishkmallik/#/readypetgo" style={{color: '#00AAFF'}}>Click here</a>
+                        <a href="/#/readypetgo" style={{color: '#00AAFF'}}>Click here</a>
                     </Col>
                 </Row>
                 <br/>
@@ -58,7 +58,7 @@ const Projects = () => {
                     <Col lg={4} xl={3} className='m-10 col-text'>
                         <h4>Project:</h4>
                         <h1>ClaimSafe</h1>
-                        <a href="/manishkmallik/#/claimsafe" style={{color: '#00AAFF'}}>Click here</a>
+                        <a href="/#/claimsafe" style={{color: '#00AAFF'}}>Click here</a>
                     </Col>
                 </Row>
             </Container>
