@@ -9,7 +9,7 @@ import ToyotaTripsPage from './pages/ToyotaTrips';
 import RPG from './pages/RPG';
 import ClaimSafePage from './pages/ClaimSafe';
 //import logo from './images/mkm_logo.jpg';
-import { BrowserRouter, Routes, Route, HashRouter} from 'react-router-dom';
+import {Routes, Route, HashRouter} from 'react-router-dom';
 //manishkmallik/
 
 function App() {
