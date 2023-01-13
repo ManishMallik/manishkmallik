@@ -41,7 +41,7 @@ const About = () => {
 			<br/>
 
 			<Row>
-				<Col className='m-10' md={5} lg={2}>
+				<Col className='m-10' md={8} lg={2} xs={10}>
 					<Figure className='figure-align'>
 						<Figure.Image width={width} height={width} alt="Manish" src={Weightlifting}/>
 						<Figure.Caption style={{color: 'white'}}>
@@ -49,7 +49,7 @@ const About = () => {
 						</Figure.Caption>
 					</Figure>
 				</Col>
-				<Col className='m-10' md={5} lg={2}>
+				<Col className='m-10' md={8} lg={2} xs={10}>
 					<Figure className='figure-align'>
 						<Figure.Image width={width} height={width} alt="Manish" src={Sports} style={{backgroundColor: 'white'}}/>
 						<Figure.Caption style={{color: 'white'}}>
@@ -57,7 +57,7 @@ const About = () => {
 						</Figure.Caption>
 					</Figure>
 				</Col>
-				<Col className='m-10' md={5} lg={2}>
+				<Col className='m-10' md={8} lg={2} xs={10}>
 					<Figure className='figure-align'>
 						<Figure.Image width={width} height={width} alt="Manish" src={Cooking}/>
 						<Figure.Caption style={{color: 'white'}}>
@@ -65,7 +65,7 @@ const About = () => {
 						</Figure.Caption>
 					</Figure>
 				</Col>
-				<Col className='m-10' md={5} lg={2}>
+				<Col className='m-10' md={8} lg={2} xs={10}>
 					<Figure className='figure-align'>
 						<Figure.Image width={width} height={width} alt="Manish" src={Networking}/>
 						<Figure.Caption style={{color: 'white'}}>
