@@ -45,20 +45,20 @@ const About = () => {
 					<img src={Weightlifting} alt="Weightlifting" width={width/2.5} height={width/2.5}
 					/>
 					<Carousel.Caption>
-						<h3>Weightlifting</h3>
+						<h5>Weightlifting</h5>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img src={Sports} alt="Sports" style={{backgroundColor: 'white'}} width={width/2.5} height={width/2.5}/>
 					<Carousel.Caption>
-						<h3>Sports</h3>
+						<h5>Sports</h5>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img src={Cooking} alt="Cooking" width={width/2.5} height={width/2.5}
 					/>
 					<Carousel.Caption>
-						<h3>Cooking</h3>
+						<h5>Cooking</h5>
 					</Carousel.Caption>
 				</Carousel.Item>
 			</Carousel>
