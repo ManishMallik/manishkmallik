@@ -40,40 +40,28 @@ const About = () => {
 			<br/>
 			<br/>
 
-			<Row>
-				<Col className='m-10' md={5} lg={2}>
-					<Figure className='figure-align'>
-						<Figure.Image width={width} height={width} alt="Manish" src={Weightlifting}/>
-						<Figure.Caption style={{color: 'white'}}>
-							Weightlifting
-						</Figure.Caption>
-					</Figure>
-				</Col>
-				<Col className='m-10' md={5} lg={2}>
-					<Figure className='figure-align'>
-						<Figure.Image width={width} height={width} alt="Manish" src={Sports} style={{backgroundColor: 'white'}}/>
-						<Figure.Caption style={{color: 'white'}}>
-							Sports
-						</Figure.Caption>
-					</Figure>
-				</Col>
-				<Col className='m-10' md={5} lg={2}>
-					<Figure className='figure-align'>
-						<Figure.Image width={width} height={width} alt="Manish" src={Cooking}/>
-						<Figure.Caption style={{color: 'white'}}>
-							Cooking
-						</Figure.Caption>
-					</Figure>
-				</Col>
-				<Col className='m-10' md={5} lg={2}>
-					<Figure className='figure-align'>
-						<Figure.Image width={width} height={width} alt="Manish" src={Networking}/>
-						<Figure.Caption style={{color: 'white'}}>
-							Networking with professionals
-						</Figure.Caption>
-					</Figure>
-				</Col>
-			</Row>
+			<Carousel variant="dark" style={{width: width/2.5, height: width/2.5}}>
+				<Carousel.Item>
+					<img src={Weightlifting} alt="Weightlifting" width={width/2.5} height={width/2.5}
+					/>
+					<Carousel.Caption>
+						<h3>Weightlifting</h3>
+					</Carousel.Caption>
+				</Carousel.Item>
+				<Carousel.Item>
+					<img src={Sports} alt="Sports" style={{backgroundColor: 'white'}} width={width/2.5} height={width/2.5}/>
+					<Carousel.Caption>
+						<h3>Sports</h3>
+					</Carousel.Caption>
+				</Carousel.Item>
+				<Carousel.Item>
+					<img src={Cooking} alt="Cooking" width={width/2.5} height={width/2.5}
+					/>
+					<Carousel.Caption>
+						<h3>Cooking</h3>
+					</Carousel.Caption>
+				</Carousel.Item>
+			</Carousel>
 
 			<br/>
 			<br/>
